@@ -1,0 +1,6 @@
+# HoleVoid settings
+telegram-url: "ссылка скоро"
+homes:
+  default-limit: 3
+auction:
+  max-listings: 500

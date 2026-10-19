@@ -1,0 +1,39 @@
+name: HoleVoid
+version: 1.0.0
+main: ru.holevoid.HoleVoid
+api-version: '1.21.11'
+author: HoleVoid
+website: https://example.invalid
+commands:
+  sethome: {description: Установить дом, usage: /sethome [название]}
+  home: {description: Телепортироваться домой, usage: /home [название]}
+  delhome: {description: Удалить дом, usage: /delhome <название>}
+  homes: {description: Список домов}
+  setwarp: {description: Создать варп, usage: /setwarp <название>}
+  warp: {description: Телепортироваться на варп, usage: /warp [название]}
+  delwarp: {description: Удалить варп, usage: /delwarp <название>}
+  warps: {description: Список варпов}
+  spawn: {description: Телепортироваться на спавн}
+  setspawn: {description: Установить спавн}
+  back: {description: Вернуться на предыдущую позицию}
+  tpa: {description: Запрос телепортации, usage: /tpa <ник>}
+  tpaccept: {description: Принять запрос телепортации}
+  tpdeny: {description: Отклонить запрос телепортации}
+  balance: {description: Посмотреть баланс, aliases: [money]}
+  bal: {description: Посмотреть баланс}
+  pay: {description: Перевести деньги, usage: /pay <ник> <сумма>}
+  baltop: {description: Рейтинг балансов, usage: /baltop [страница]}
+  eco: {description: Управление экономикой, usage: /eco <give|take|set> <ник> <сумма>}
+  ah: {description: Аукцион, usage: /ah [sell <цена> | страница]}
+  vanish: {description: Обычный ваниш}
+  svanish: {description: Суперваниш}
+  board: {description: Обновить табло}
+permissions:
+  holevoid.warp.set: {default: op}
+  holevoid.spawn.set: {default: op}
+  holevoid.eco.admin: {default: op}
+  holevoid.vanish: {default: op}
+  holevoid.vanish.see: {default: op}
+  holevoid.svanish: {default: op}
+  holevoid.svanish.see: {default: op}
+  holevoid.homes.unlimited: {default: op}
